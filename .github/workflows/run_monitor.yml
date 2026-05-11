@@ -2,7 +2,7 @@ name: Recruitment Monitor
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # 每 20 分钟运行一次
+    - cron: '*/20 * * * *' # 每 20 分钟运行一次
   workflow_dispatch:      # 允许手动运行
 
 # 必须赋予写权限，否则无法更新 .txt 文件
